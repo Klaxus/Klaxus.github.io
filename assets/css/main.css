@@ -2233,7 +2233,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #ff7c96;
+			background-color: #d6d6d6;
 		}
 
 		input[type="submit"]:active,
