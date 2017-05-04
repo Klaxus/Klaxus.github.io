@@ -5,7 +5,7 @@ html, body {
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #000000;
+    background: #000000;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12pt;
     font-weight: 400;
@@ -17,3 +17,69 @@ body {
 	width: 1200px;
 	margin: 0em auto
 }
+
+/* Banner */
+
+
+#banner {
+    text-align: center;
+}
+
+/* Page */
+
+
+#page {
+    overflow: hidden;
+    background-color: #000;
+    /*this is the bar at the top of the image in default page*/
+    border-top: 10px solid #adaaaa;
+    border-bottom: 10px solid #adaaaa; /**/
+}
+
+#page1 {
+    text-align: center;
+}
+
+
+/* Content */
+
+
+#content {
+    float: right;
+    width: 500px;
+    padding: 50px;
+    background-color: #000;
+}
+
+
+/* Logo */
+
+
+#logo {
+    position: absolute;
+    top: 3em;
+    left: 10px;
+    width: 99%;
+    text-align: right;
+}
+
+    #logo h1 {
+        display: inline-block;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #FFF;
+        width: 385px;
+    }
+
+    #logo a {
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    #logo span {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1.2em;
+        color: #FFF;
+    }
