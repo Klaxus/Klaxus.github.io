@@ -2632,6 +2632,7 @@ div.upIcon {
 		}
 
 			#header .avatar img {
+				position: relative;
 				border-radius: 100%;
 				display: block;
 				width: 18em;
