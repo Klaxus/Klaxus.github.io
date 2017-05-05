@@ -2634,7 +2634,8 @@ div.upIcon {
 
 			#header .avatar img {
 				max-width: 100%;
-				height: 18em;
+				width: 17em;
+				height: auto;
 				border-radius: 100%;
 				display: block;
 			}
